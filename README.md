@@ -15,7 +15,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
+
 
 <h2>Operating Systems Used </h2>
 
@@ -24,10 +24,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+1. Create four sample files with various permissions
+2. Log into client machine as a normal user and attempt to access sample files 
+3. Create a new security group named "Accountants"
+4. Add one of our sample users to the "Accountants" security group
+5. Observe newly acquired access privileges
 
 <h2>Introduction</h2>
 
