@@ -33,10 +33,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Introduction</h2>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In a networked environment, file shares are a fundamental aspect of resource management and collaboration. A file share allows multiple users and devices within a network domain to access, modify, and manage files stored on a central server. By creating file shares on a network domain controller, administrators can efficiently control access to critical data, ensuring that only authorized users have the appropriate permissions to view or modify specific files.
+
+The importance of file shares lies in their ability to streamline collaboration, improve data security, and simplify the management of resources across an organization. By implementing proper file share permissions, administrators can enforce access controls, protect sensitive information, and maintain an organized, efficient network environment. This tutorial will guide you through the steps to create and configure shared file permissions within a network domain controller, ensuring your organization’s files are accessible and secure.
 </p>
 <br />
+<p>In this tutorial, we will create four new file shares named "read-access," "write-access," "no-access," and "accounting" to demonstrate how different permission levels can be applied and managed within a network domain. Each share will have specific permissions assigned to control who can access or modify the files within them. The "read-access" share will be configured to allow users to view files without making changes, while the "write-access" share will permit users to both view and modify the files. The "no-access" share will be restricted, ensuring that certain users cannot access its contents. Finally, the "accounting" share will be tailored for use by the accounting department, with permissions set to allow only authorized personnel to manage sensitive financial data. Through this process, you'll gain hands-on experience in setting up and managing file shares with varying levels of access control. </p>
 <br />
+<h2> Configuration Steps</h2>
 
 <p>Using your domain administrator account, which follows the format mydomain.com\jane_admin, establish a connection or log into the DC-1 server. Using a standard user account, formatted as mydomain<someuser>, establish a connection or log into the Client-1 machine.</p>
 
