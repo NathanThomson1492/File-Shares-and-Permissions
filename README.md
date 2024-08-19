@@ -3,7 +3,7 @@
 </p>
 
 <h1>File Shares and Permissions Tutorial</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the implementation of access provisioning of various file shares within a network domain controller.<br />
 
 
 
