@@ -1,6 +1,7 @@
-<p align="center">
+<p align="center"></p>
 
-</p>
+![image](https://github.com/user-attachments/assets/cb001686-d2a4-419e-b910-b6ab5f18991f)
+
 
 <h1>File Shares and Permissions Tutorial</h1>
 This tutorial outlines the implementation of access provisioning of various file shares within a network domain controller.<br />
